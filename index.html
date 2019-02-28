@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Materialize CSS -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train-Time</title>
+</head>
+
+<!-- Body -->
+
+<body>
+    <!-- Container Div -->
+    <div class="Flex-Box flex container">
+        <!-- Title Div -->
+        <div id="title-div">
+            <p class="title-text">Anytime is Train Time<br>Choo Choo. Chee. Chee.</p>
+        </div>
+
+        <!-- Panel1 -->
+        <div class="Panel">
+            <!-- Container for panel 1 -->
+            <p class="panel-text">Current Train Schedule</p>
+            <!-- This is the form for panel 1 -->
+            <form class="panel1-table"></form>
+        </div>
+        <!-- Panel 2 -->
+        <div class="Panel">
+            <!-- Container for panel 2 -->
+            <p class="panel-text">Add Train</p>
+            <!-- This is the form for panel 2 -->
+            <form class="panel2-form">
+                <p>Train Name</p>
+                <input id="train-name" type="text">
+                <p>Destination</p>
+                <input id="destination-text" type="text">
+                <p>First Train Time (HH:mm - military time)</p>
+                <input id="first-train-time-text" type="text">
+                <p>Frequency (min)</p>
+                <input id="frequency-text" type="text">
+
+            </form>
+            <button class="btnSubmit">Submit</button>
+
+        </div>
+        <!-- Container Div -->
+
+    </div>
+
+    <!-- Body -->
+</body>
+
+<!-- jquery cdn -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</html>
